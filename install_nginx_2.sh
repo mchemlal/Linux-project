@@ -1,4 +1,5 @@
 #!/bin/bash
 
-./html_root/ | /var/www/html/ | /usr/share/nginx/html
-
+cp html_root/index.html /var/www/html/
+apt update 
+apt install nginx
