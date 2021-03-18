@@ -1,2 +1,2 @@
 #!/bin/bash
-grep 'error' $1 | grep 'warning' $1 
+grep 'error' $1 && grep 'warning' $1 
