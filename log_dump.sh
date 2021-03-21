@@ -1,4 +1,4 @@
-cut: fichier.csv: No such file or directory
+#!/bin/bash
 date=$(date '+%F-%T')
 
 mkdir -p $2

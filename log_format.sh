@@ -1,5 +1,8 @@
 #!/bin/bash
 
+date=$(date '+%F-%T') 
+touch $2/log-$date.json
+
 cat $1 | while read line
 do 
 date=$(echo $line | awk '{print ($1" "$2" ")}' | cut -c2-20)
